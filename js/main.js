@@ -56,11 +56,11 @@ languages_list.forEach((lang) => {
     start_btn.style.display = "block";
 
     if (lang.classList.contains("html")) {
-      link = `../json/html.json`;
+      link = `./json/html.json`;
     } else if (lang.classList.contains("css")) {
-      link = `../json/css.json`;
+      link = `./json/css.json`;
     } else if (lang.classList.contains("js")) {
-      link = `../json/javascript.json`;
+      link = `./json/javascript.json`;
     }
   };
 });
