@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Awesome CSS File -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="headerContainer">
+            <h1>Quiz Application</h1>
+        </div>
+    </header>
+
+    <!-- Main Part -->
+    <main>
+        <!-- Start Openning Container -->
+        <section class="openning_container">
+            <h2>welcome to our quiz application</h2>
+            <p>please, select your quiz</p>
+            <div class="quiz_languages">
+                <div class="html lang">
+                    <i class="fa-brands fa-html5"></i>
+                    <div class="quiz_languages_info">
+                        <span>html</span>
+                    </div>
+                </div>
+                <div class="css lang">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <div class="quiz_languages_info">
+                        <span>css</span>
+                    </div>
+                </div>
+                <div class="js lang">
+                    <i class="fa-brands fa-square-js"></i>
+                    <div class="quiz_languages_info">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <span class="start_btn">start the quiz</span>
+        </section>
+
+        <!-- Start Quiz Container -->
+        <section class="quiz_container">
+            <div class="quiz_container_header">
+                <h3></h3>
+                <div class="quiz_info">
+                    <span class="question_counter"></span>
+                    <span class="questions_number"></span>
+                </div>
+            </div>
+            <div class="question_area">
+                <p class="question"></p>
+                <div class="choices"></div>
+            </div>
+            <div class="submit">
+                <span class="submit_btn"></span>
+                <span class="timer_container">
+                    <span class="timer"></span>
+                </span>
+                <span class="quit">quit the quiz</span>
+            </div>
+        </section>
+        <div class="home_btn">Home</div>
+    </main>
+
+    <!-- main JavaScript File -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

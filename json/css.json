@@ -1,0 +1,172 @@
+{
+  "quiz_title": "CSS Basics Quiz",
+  "level": "Beginner",
+  "total_questions": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does CSS stand for?",
+      "choices": {
+        "a": "Creative Style Sheets",
+        "b": "Cascading Style Sheets",
+        "c": "Computer Style Sheets",
+        "d": "Colorful Style Sheets"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 2,
+      "question": "Which HTML attribute is used to define inline styles?",
+      "choices": {
+        "a": "styles",
+        "b": "class",
+        "c": "font",
+        "d": "style"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": 3,
+      "question": "How do you select an element with id 'header' in CSS?",
+      "choices": {
+        "a": ".header",
+        "b": "#header",
+        "c": "header",
+        "d": "*header"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 4,
+      "question": "How do you select elements with class name 'menu' in CSS?",
+      "choices": {
+        "a": "#menu",
+        "b": ".menu",
+        "c": "menu",
+        "d": "*menu"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 5,
+      "question": "Which property is used to change the background color?",
+      "choices": {
+        "a": "color",
+        "b": "bgcolor",
+        "c": "background-color",
+        "d": "bg-color"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 6,
+      "question": "How do you add a background color for all <h1> elements?",
+      "choices": {
+        "a": "h1 {background-color:#FFFFFF;}",
+        "b": "all.h1 {background-color:#FFFFFF;}",
+        "c": "h1.all {background-color:#FFFFFF;}",
+        "d": "#h1 {background-color:#FFFFFF;}"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": 7,
+      "question": "Which property is used to change the font of an element?",
+      "choices": {
+        "a": "font-style",
+        "b": "font-weight",
+        "c": "font-family",
+        "d": "text-font"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 8,
+      "question": "How do you make the text bold?",
+      "choices": {
+        "a": "font:bold;",
+        "b": "style:bold;",
+        "c": "font-weight:bold;",
+        "d": "text-size:bold;"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 9,
+      "question": "Which property is used to change the text color of an element?",
+      "choices": {
+        "a": "text-color",
+        "b": "color",
+        "c": "font-color",
+        "d": "txt-color"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 10,
+      "question": "Which CSS property controls the text size?",
+      "choices": {
+        "a": "font-style",
+        "b": "text-size",
+        "c": "font-size",
+        "d": "text-style"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 11,
+      "question": "How do you display hyperlinks without an underline?",
+      "choices": {
+        "a": "a {text-decoration:no-underline;}",
+        "b": "a {decoration:no-underline;}",
+        "c": "a {underline:none;}",
+        "d": "a {text-decoration:none;}"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": 12,
+      "question": "How do you make each word in a text start with a capital letter?",
+      "choices": {
+        "a": "text-transform:capitalize",
+        "b": "text-style:capitalize",
+        "c": "transform:capitalize",
+        "d": "font-transform:capitalize"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": 13,
+      "question": "Which property is used to change the left margin of an element?",
+      "choices": {
+        "a": "padding-left",
+        "b": "margin-left",
+        "c": "indent",
+        "d": "left-margin"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 14,
+      "question": "How do you make a list that lists its items with squares?",
+      "choices": {
+        "a": "list-type:square;",
+        "b": "list-style-type:square;",
+        "c": "list:square;",
+        "d": "list-bullet:square;"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 15,
+      "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+      "choices": {
+        "a": "In the <body> section",
+        "b": "At the end of the document",
+        "c": "In the <head> section",
+        "d": "In the <style> section"
+      },
+      "correct_answer": "c"
+    }
+  ]
+}

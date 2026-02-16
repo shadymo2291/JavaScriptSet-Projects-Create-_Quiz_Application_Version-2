@@ -1,0 +1,172 @@
+{
+  "quiz_title": "JavaScript Basics Quiz",
+  "level": "Beginner",
+  "total_questions": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "choices": {
+        "a": "<javascript>",
+        "b": "<js>",
+        "c": "<script>",
+        "d": "<scripting>"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 2,
+      "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+      "choices": {
+        "a": "<script href=\"script.js\">",
+        "b": "<script name=\"script.js\">",
+        "c": "<script src=\"script.js\">",
+        "d": "<script file=\"script.js\">"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 3,
+      "question": "How do you write \"Hello World\" in an alert box?",
+      "choices": {
+        "a": "msgBox(\"Hello World\");",
+        "b": "alertBox(\"Hello World\");",
+        "c": "alert(\"Hello World\");",
+        "d": "msg(\"Hello World\");"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 4,
+      "question": "How do you create a function in JavaScript?",
+      "choices": {
+        "a": "function:myFunction()",
+        "b": "function myFunction()",
+        "c": "function = myFunction()",
+        "d": "create myFunction()"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 5,
+      "question": "How do you call a function named 'myFunction'?",
+      "choices": {
+        "a": "call myFunction()",
+        "b": "myFunction()",
+        "c": "call function myFunction()",
+        "d": "execute myFunction()"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 6,
+      "question": "How to write an IF statement in JavaScript?",
+      "choices": {
+        "a": "if i = 5 then",
+        "b": "if i == 5 then",
+        "c": "if (i == 5)",
+        "d": "if i = 5"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 7,
+      "question": "How does a WHILE loop start?",
+      "choices": {
+        "a": "while i = 1 to 10",
+        "b": "while (i <= 10; i++)",
+        "c": "while (i <= 10)",
+        "d": "while i <= 10"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 8,
+      "question": "How can you add a comment in JavaScript?",
+      "choices": {
+        "a": "<!--This is a comment-->",
+        "b": "'This is a comment",
+        "c": "//This is a comment",
+        "d": "**This is a comment**"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 9,
+      "question": "What is the correct way to write a JavaScript array?",
+      "choices": {
+        "a": "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+        "b": "var colors = [\"red\", \"green\", \"blue\"]",
+        "c": "var colors = \"red\", \"green\", \"blue\"",
+        "d": "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 10,
+      "question": "How do you round the number 7.25 to the nearest integer?",
+      "choices": {
+        "a": "Math.round(7.25)",
+        "b": "Math.rnd(7.25)",
+        "c": "round(7.25)",
+        "d": "rnd(7.25)"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": 11,
+      "question": "Which operator is used to assign a value to a variable?",
+      "choices": {
+        "a": "-",
+        "b": "*",
+        "c": "=",
+        "d": "x"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 12,
+      "question": "What will the following code return: Boolean(10 > 9)",
+      "choices": {
+        "a": "NaN",
+        "b": "false",
+        "c": "true",
+        "d": "undefined"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 13,
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "choices": {
+        "a": "onchange",
+        "b": "onmouseclick",
+        "c": "onmouseover",
+        "d": "onclick"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": 14,
+      "question": "How do you declare a JavaScript variable?",
+      "choices": {
+        "a": "variable carName;",
+        "b": "v carName;",
+        "c": "var carName;",
+        "d": "let carName;"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 15,
+      "question": "Which method can be used to find the length of a string?",
+      "choices": {
+        "a": "length()",
+        "b": "getLength()",
+        "c": "len()",
+        "d": "length"
+      },
+      "correct_answer": "d"
+    }
+  ]
+}
